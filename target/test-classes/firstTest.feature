@@ -3,4 +3,6 @@ Feature: Logo Presence
     Given I launch chrome browser
     When I open google home page
     Then I verity that the logo is present on page
+    Then Get page title
     And Close browser
+
